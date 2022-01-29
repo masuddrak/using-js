@@ -1,14 +1,11 @@
 // functional factorial
-function factorials(numbers){
+function factorial(number){
     let fact=1;
-    let i=1;
-    while(i<=numbers){
+    for(let i=number; i>=1; i--){
         fact=fact*i;
-        i++;
     }
     return fact;
 }
-
-let num=3;
-let result=factorials(num);
+let num=4;
+let result=factorial(num);
 console.log(result);
