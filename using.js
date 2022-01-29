@@ -1,10 +1,7 @@
-
-function ages(age){
-    if(age%2==0){
-        return true;
-    }
-    return false;
+// mils to kilomiters
+function milsToKilomiters(mils){
+    let km=mils*1.60934;
+    return km;
 }
-
-var age=ages(21);
-console.log(age);
+let bandorbon=milsToKilomiters(24);
+console.log('dinajpur to bandorbon = ', bandorbon);
