@@ -1,11 +1,11 @@
-// functional factorial
-function factorial(number){
-    let fact=1;
-    for(let i=number; i>=1; i--){
-        fact=fact*i;
+
+// function addition 1-5 number
+function addNumber(number){
+    let addition=0;
+    for(let i=1; i<=number; i++){
+        addition=addition+i;
     }
-    return fact;
+    return addition;
 }
-let num=4;
-let result=factorial(num);
+const result=addNumber(5);
 console.log(result);
